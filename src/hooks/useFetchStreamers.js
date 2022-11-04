@@ -29,10 +29,10 @@ const useFetchStreamers = () => {
   };
 
   useEffect(() => {
-    return () => !completed && fetchStreamers();
+    return () => fetchStreamers();
   }, []);
 
-  return [streamerData];
+  return [completed, streamerData];
 };
 
 export default useFetchStreamers;

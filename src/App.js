@@ -6,12 +6,12 @@ import { games } from './data';
 import useFetchStreamers from './hooks/useFetchStreamers';
 
 export default function App() {
-  const [streamers] = useFetchStreamers();
+  const [completed, streamers] = useFetchStreamers();
 
   return (
     <div>
       <div>
-        {streamers &&
+        {completed &&
           streamers.map((streamer) => {
             return (
               <>
