@@ -1,3 +1,3 @@
-# streaming-app
+# Streaming App
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/streaming)
+In progress...
