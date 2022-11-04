@@ -2,7 +2,6 @@
 import React from 'react';
 import './reset.css';
 import './style.css';
-import { useState, useEffect } from 'react';
 import { games } from './data';
 import useFetchStreamers from './hooks/useFetchStreamers';
 
