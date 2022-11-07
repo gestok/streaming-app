@@ -11,30 +11,6 @@ export const streamers = [
 
 export const games = [
   {
-    slug: 'lol',
-    name: 'League of Legends',
-    thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/league.jpg',
-    tags: ['MOBA', 'Action'],
-    viewers: Math.floor(Math.random() * 50000) + 50000,
-  },
-  {
-    slug: 'ow2',
-    name: 'Overwatch 2',
-    thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/overwatch2.jpg',
-    tags: ['FPS', 'Shooter'],
-    viewers: Math.floor(Math.random() * 60000) + 60000,
-  },
-  {
-    slug: 'apex',
-    name: 'Apex Legends',
-    thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/apexlegends.jpg',
-    tags: ['FPS', 'Shooter'],
-    viewers: Math.floor(Math.random() * 60000) + 60000,
-  },
-  {
     slug: 'dota2',
     name: 'Dota 2',
     thumb:
@@ -89,5 +65,29 @@ export const games = [
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/codmw.jpg',
     tags: ['Shooter', 'Action'],
     viewers: Math.floor(Math.random() * 60000) + 20000,
+  },
+  {
+    slug: 'lol',
+    name: 'League of Legends',
+    thumb:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/league.jpg',
+    tags: ['MOBA', 'Action'],
+    viewers: Math.floor(Math.random() * 50000) + 50000,
+  },
+  {
+    slug: 'ow2',
+    name: 'Overwatch 2',
+    thumb:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/overwatch2.jpg',
+    tags: ['FPS', 'Shooter'],
+    viewers: Math.floor(Math.random() * 60000) + 60000,
+  },
+  {
+    slug: 'apex',
+    name: 'Apex Legends',
+    thumb:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/apexlegends.jpg',
+    tags: ['FPS', 'Shooter'],
+    viewers: Math.floor(Math.random() * 60000) + 60000,
   },
 ];

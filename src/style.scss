@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;600&display=swap');
+
+:root {
+  --fonts: 'Heebo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  --white: #ffffff;
+  --black: #010101;
+  --gray: #f6f6f6;
+  --blue: #bdbef2;
+  --gradient-left: #b8adf1;
+  --gradient-center: #a191f1;
+  --gradient-right: #bf85e0;
+  --glass: #75757520;
+
+  --gap-step: 4px;
+  --padding: 1.2rem;
+}
+
+h1,
+p {
+  font-family: var(--fonts);
+}
+
+body {
+  color: var(--black);
+  background: var(--gray);
+  font-family: var(--fonts);
+  overflow-x: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-inline-flex {
+  display: inline-flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.gap1 {
+  gap: var(--gap-step);
+}
+.gap2 {
+  gap: calc(2 * var(--gap-step));
+}
+.gap3 {
+  gap: calc(3 * var(--gap-step));
+}
+.gap4 {
+  gap: calc(4 * var(--gap-step));
+}
+.gap5 {
+  gap: calc(5 * var(--gap-step));
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.pe-none {
+  pointer-events: none;
+}
+.user-select-none {
+  user-select: none;
+}
+
+.overflow-auto {
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.sectionTitle {
+  margin: 0 var(--padding);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.cardsWrapper {
+  margin: var(--padding) 0 calc(var(--padding) * 2);
+  padding: 0 var(--padding);
+}
