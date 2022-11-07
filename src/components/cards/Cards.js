@@ -10,13 +10,13 @@ const Cards = ({ thumb, title, viewers }) => {
 
   return (
     <div className="cardWrapper d-inline-flex flex-column relative">
-      <img className="thumb" src={thumb} alt={title} />
+      <img className="thumb pe-none user-select-none" src={thumb} alt={title} />
       <div className="d-flex align-center justify-content-space-between glass gap2">
         <span className="title">{title}</span>
         <span className="d-flex align-center gap2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
+            width="16"
             viewBox="0 0 48 48"
             fill="var(--white)"
           >
