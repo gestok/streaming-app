@@ -1,5 +1,5 @@
 .cardWrapper {
-  font-size: 18px;
+  font-size: 100%;
   font-weight: 900;
   color: var(--white);
   min-width: 230px;
@@ -28,6 +28,7 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
+      font-size: 120%;
     }
   }
   &:hover .thumb {
