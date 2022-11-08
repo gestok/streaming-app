@@ -6,6 +6,7 @@ import { games } from './data';
 import useFetchStreamers from './hooks/useFetchStreamers';
 import Gamecard from './components/gamecard/Gamecard';
 import Streamer from './components/streamer/Streamer';
+import Carousel from './components/carousel/Carousel';
 
 export default function App() {
   const [completed, streamers] = useFetchStreamers();
@@ -13,7 +14,7 @@ export default function App() {
   return (
     <div>
       <span className="sectionTitle">Recommended games</span>
-      <div className="cardsWrapper d-flex gap4 overflow-auto">
+      <Carousel>
         {games.map((game) => {
           return (
             <Gamecard
@@ -22,32 +23,27 @@ export default function App() {
               title={game.name}
               viewers={game.viewers}
             />
-            // <div>
-            //   {game.tags.map((tag) => (
-            //     <span>{tag}</span>
-            //   ))}
-            // </div>
           );
         })}
-      </div>
+      </Carousel>
       <span className="sectionTitle">Favourite Streamers</span>
-      <div className="cardsWrapper d-flex gap4 overflow-auto">
-        <Streamer />
-        <div>
-          {completed &&
-            streamers.map((streamer) => {
-              return (
-                <>
-                  <img src={streamer.avatar} />
-                  <div>{streamer.name}</div>
-                  <div>{streamer.game}</div>
-                  <div>{streamer.status}</div>
-                  <br />
-                </>
-              );
-            })}
-        </div>
-      </div>
+      <Carousel>
+        {completed &&
+          streamers.map((streamer) => {
+            return (
+              <Streamer
+                key={streamer.name}
+                cover={}
+                logo={streamer.avatar}
+                name={streamer.name}
+                status={streamer.status}
+                followers={}
+                viewers={}
+                videos={}
+              />
+            );
+          })}
+      </Carousel>
     </div>
   );
 }

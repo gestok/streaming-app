@@ -3,35 +3,61 @@ export const streamers = [
     id: 'ESL_SC2',
     avatar:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/ESL_SC2.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'OgamingSC2',
     avatar:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/OG_SC2.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'cretetion',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/cretetion.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'freecodecamp',
     avatar:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/freecodecamp.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'storbeck',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'habathcx',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'RobotCaleb',
     avatar:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/RobotCaleb.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
   {
     id: 'noobs2ninjas',
     avatar:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/noobs2ninjas.png',
+    banner: '',
+    viewers: Math.floor(Math.random() * 500) + 10,
+    followers: Math.floor(Math.random() * 10000) + 100,
   },
 ];
 
