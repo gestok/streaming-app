@@ -1,65 +1,77 @@
 export const streamers = [
   {
     id: 'ESL_SC2',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/ESL_SC2.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/ESL_SC2.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/esl_sc2.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'OgamingSC2',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/OG_SC2.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/OG_SC2.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/og-sc2.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'cretetion',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/cretetion.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/cretetion.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/cretetion.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'freecodecamp',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/freecodecamp.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/freecodecamp.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/freecodecamp.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'storbeck',
-    banner: '',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/league.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'habathcx',
-    banner: '',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/wow.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'RobotCaleb',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/RobotCaleb.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/RobotCaleb.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/code.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'noobs2ninjas',
-    avatar:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/noobs2ninjas.png',
-    banner: '',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/noobs2ninjas.png',
+    banner:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/codespiral.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
+    videos: Math.floor(Math.random() * 200) + 20,
   },
 ];
+
+export const lives = [{}];
 
 export const games = [
   {

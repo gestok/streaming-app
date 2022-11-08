@@ -7,15 +7,27 @@ import useFetchStreamers from './hooks/useFetchStreamers';
 import Gamecard from './components/gamecard/Gamecard';
 import Streamer from './components/streamer/Streamer';
 import Carousel from './components/carousel/Carousel';
+import Search from './components/search/Search';
+import Navigation from './components/navigation/Navigation';
 
 export default function App() {
   const [completed, streamers] = useFetchStreamers();
 
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
   return (
-    <div>
+    <div className="streamApp relative">
+      <div className="stub"></div>
+      <Search />
       <span className="sectionTitle">Recommended games</span>
       <Carousel>
-        {games.map((game) => {
+        {shuffleArray(games).map((game) => {
           return (
             <Gamecard
               key={game.slug}
@@ -26,6 +38,8 @@ export default function App() {
           );
         })}
       </Carousel>
+      <span className="sectionTitle">Popular Lives</span>
+      <Carousel></Carousel>
       <span className="sectionTitle">Favourite Streamers</span>
       <Carousel>
         {completed &&
@@ -33,17 +47,18 @@ export default function App() {
             return (
               <Streamer
                 key={streamer.name}
-                cover={}
-                logo={streamer.avatar}
+                banner={streamer.banner}
+                logo={streamer.logo}
                 name={streamer.name}
                 status={streamer.status}
-                followers={}
-                viewers={}
-                videos={}
+                followers={streamer.followers}
+                viewers={streamer.viewers}
+                videos={streamer.videos}
               />
             );
           })}
       </Carousel>
+      <Navigation />
     </div>
   );
 }

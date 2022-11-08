@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;600&display=swap');
 
 :root {
   --fonts: 'Heebo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -24,9 +24,14 @@ p {
 
 body {
   color: var(--black);
-  background: var(--gray);
+  background: #e3e7ed;
   font-family: var(--fonts);
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .d-flex {
@@ -77,11 +82,65 @@ body {
   user-select: none;
 }
 
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
 .overflow-auto {
   overflow: auto;
   &::-webkit-scrollbar {
     width: 0px;
     height: 0px;
+  }
+}
+
+.streamApp {
+  max-width: 400px;
+  width: 100%;
+  max-height: 720px;
+  height: 100%;
+  margin: auto;
+  box-shadow: 0 0 0 4px #939393, 0 10px 32px #0005;
+  border: solid 10px #010101;
+  border-radius: 40px;
+  background: var(--gray);
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .stub {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 24px;
+    z-index: 1;
+    padding-bottom: 10px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #010101;
+      height: 24px;
+      width: 50%;
+      border-radius: 0 0 12px 12px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: 30%;
+      transform: translateX(-50%);
+      background: linear-gradient(to right, #164865, #123579);
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+    }
   }
 }
 

@@ -1,0 +1,32 @@
+.navbar {
+  background: var(--white);
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -4px 12px #0001;
+  .btn {
+    text-decoration: none;
+    flex-basis: 20%;
+    padding: var(--padding);
+    padding-bottom: calc(var(--padding) + 8px);
+    .add {
+      background: linear-gradient(
+        to right,
+        var(--gradient-left),
+        var(--gradient-center),
+        var(--gradient-right)
+      );
+      width: 34px;
+      height: 34px;
+      margin-top: -6px;
+      border-radius: 50%;
+      color: var(--white);
+      font-weight: 300;
+      font-size: 150%;
+    }
+    &:active {
+      background: var(--gray);
+    }
+  }
+}
