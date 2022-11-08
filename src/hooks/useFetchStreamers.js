@@ -9,12 +9,13 @@ const useFetchStreamers = () => {
   const fetchStreamers = async () => {
     await Promise.all(
       streamers.map(async (streamer) => {
-        const res = await fetch(`${url}/${streamer}`);
+        const res = await fetch(`${url}/${streamer.id}`);
         const data = await res.json();
         console.log(data);
         let info = {
-          name: streamer,
+          name: streamer.id,
           avatar:
+            streamer.avatar ||
             'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/offline.jpg',
         };
         if (data['stream'] === null) {
@@ -26,7 +27,6 @@ const useFetchStreamers = () => {
         } else {
           info.game = data.stream.game;
           info.status = 'online';
-          info.avatar = data.stream.channel.logo;
         }
         setStreamerData((streamerData) => [...streamerData, info]);
       })

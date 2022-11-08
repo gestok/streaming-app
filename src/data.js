@@ -1,12 +1,38 @@
 export const streamers = [
-  'ESL_SC2',
-  'OgamingSC2',
-  'cretetion',
-  'freecodecamp',
-  'storbeck',
-  'habathcx',
-  'RobotCaleb',
-  'noobs2ninjas',
+  {
+    id: 'ESL_SC2',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/ESL_SC2.png',
+  },
+  {
+    id: 'OgamingSC2',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/OG_SC2.png',
+  },
+  {
+    id: 'cretetion',
+  },
+  {
+    id: 'freecodecamp',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/freecodecamp.png',
+  },
+  {
+    id: 'storbeck',
+  },
+  {
+    id: 'habathcx',
+  },
+  {
+    id: 'RobotCaleb',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/RobotCaleb.png',
+  },
+  {
+    id: 'noobs2ninjas',
+    avatar:
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/noobs2ninjas.png',
+  },
 ];
 
 export const games = [
