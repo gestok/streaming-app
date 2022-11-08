@@ -12,7 +12,6 @@ export default function App() {
 
   return (
     <div>
-      <img src={offline} />
       <span className="sectionTitle">Recommended games</span>
       <div className="cardsWrapper d-flex gap4 overflow-auto">
         {games.map((game) => {

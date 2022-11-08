@@ -14,17 +14,19 @@ const useFetchStreamers = () => {
         console.log(data);
         let info = {
           name: streamer,
+          avatar:
+            'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/offline.jpg',
         };
         if (data['stream'] === null) {
           info.game = 'Offline';
           info.status = 'offline';
-          info.avatar = '/assets/thumbs/streamers/streamer404.jpg';
         } else if (data['stream'] === undefined) {
           info.game = 'Account Closed';
           info.status = 'offline';
         } else {
           info.game = data.stream.game;
           info.status = 'online';
+          info.avatar = data.stream.channel.logo;
         }
         setStreamerData((streamerData) => [...streamerData, info]);
       })
