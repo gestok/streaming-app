@@ -25,7 +25,7 @@ export default function App() {
     <div className="streamApp relative">
       <div className="stub"></div>
       <Search />
-      <span className="sectionTitle">Recommended games</span>
+      <span className="sectionTitle user-select-none">Recommended games</span>
       <Carousel>
         {shuffleArray(games).map((game) => {
           return (
@@ -38,9 +38,9 @@ export default function App() {
           );
         })}
       </Carousel>
-      <span className="sectionTitle">Popular Lives</span>
+      <span className="sectionTitle user-select-none">Popular Lives</span>
       <Carousel></Carousel>
-      <span className="sectionTitle">Favourite Streamers</span>
+      <span className="sectionTitle user-select-none">Favourite Streamers</span>
       <Carousel>
         {completed &&
           streamers.map((streamer) => {
