@@ -35,11 +35,13 @@
       }
       &.offline::before {
         background: red;
-        animation: offline 2.4s infinite;
+        -webkit-animation: offline 2.4s infinite;
+                animation: offline 2.4s infinite;
       }
       &.online::before {
         background: green;
-        animation: online 2.4s infinite;
+        -webkit-animation: online 2.4s infinite;
+                animation: online 2.4s infinite;
       }
     }
     .value {
@@ -66,16 +68,16 @@
 }
 @keyframes offline {
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
-    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+            box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
   }
   70% {
-    -moz-box-shadow: 0 0 0 6px rgba(255, 0, 0, 0);
-    box-shadow: 0 0 0 6px rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 6px rgba(255, 0, 0, 0);
+            box-shadow: 0 0 0 6px rgba(255, 0, 0, 0);
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
-    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
   }
 }
 
@@ -92,15 +94,15 @@
 }
 @keyframes online {
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.4);
-    box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.4);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.4);
+            box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.4);
   }
   70% {
-    -moz-box-shadow: 0 0 0 6px rgba(0, 128, 0, 0);
-    box-shadow: 0 0 0 6px rgba(0, 128, 0, 0);
+    -webkit-box-shadow: 0 0 0 6px rgba(0, 128, 0, 0);
+            box-shadow: 0 0 0 6px rgba(0, 128, 0, 0);
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
-    box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
   }
 }

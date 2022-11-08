@@ -1,17 +1,31 @@
 .navbar {
   background: var(--white);
-  position: sticky;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 -4px 12px #0001;
-  border-radius: 0 0 20px 20px;
+  -webkit-box-shadow: 0 -4px 12px #0001;
+          box-shadow: 0 -4px 12px #0001;
   .btn {
     text-decoration: none;
-    flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
     padding: var(--padding);
     padding-bottom: calc(var(--padding) + 8px);
     .add {
+      background: -webkit-gradient(
+        linear,
+        left top, right top,
+        from(var(--gradient-left)),
+        color-stop(var(--gradient-center)),
+        to(var(--gradient-right))
+      );
+      background: -o-linear-gradient(
+        left,
+        var(--gradient-left),
+        var(--gradient-center),
+        var(--gradient-right)
+      );
       background: linear-gradient(
         to right,
         var(--gradient-left),
@@ -29,5 +43,12 @@
     &:active {
       background: var(--gray);
     }
+  }
+}
+
+@media (min-width: 480px) {
+  .navbar {
+    position: sticky;
+    border-radius: 0 0 36px 36px;
   }
 }

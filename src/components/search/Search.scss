@@ -13,6 +13,22 @@
       outline: none;
       width: 100%;
       color: #aaa;
+      &::-webkit-input-placeholder {
+        color: #aaa;
+        opacity: 1;
+      }
+      &::-moz-placeholder {
+        color: #aaa;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder {
+        color: #aaa;
+        opacity: 1;
+      }
+      &::-ms-input-placeholder {
+        color: #aaa;
+        opacity: 1;
+      }
       &::placeholder {
         color: #aaa;
         opacity: 1;
