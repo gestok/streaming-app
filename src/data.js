@@ -1,36 +1,36 @@
 export const streamers = [
   {
     id: 'ESL_SC2',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/ESL_SC2.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/ESL_SC2.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/esl_sc2.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/esl_sc2.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'OgamingSC2',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/OG_SC2.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/OG_SC2.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/og-sc2.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/og-sc2.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'cretetion',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/cretetion.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/cretetion.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/cretetion.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/cretetion.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'freecodecamp',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/freecodecamp.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/freecodecamp.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/freecodecamp.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/freecodecamp.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
@@ -38,7 +38,7 @@ export const streamers = [
   {
     id: 'storbeck',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/league.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/league.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
@@ -46,25 +46,25 @@ export const streamers = [
   {
     id: 'habathcx',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/wow.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/wow.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'RobotCaleb',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/RobotCaleb.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/RobotCaleb.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/code.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/code.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
   },
   {
     id: 'noobs2ninjas',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/noobs2ninjas.png',
+    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/noobs2ninjas.png',
     banner:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/banners/codespiral.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/codespiral.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
     followers: Math.floor(Math.random() * 10000) + 100,
     videos: Math.floor(Math.random() * 200) + 20,
@@ -78,7 +78,7 @@ export const games = [
     slug: 'dota2',
     name: 'Dota 2',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/dota2.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/dota2.jpg',
     tags: ['MOBA', 'Action'],
     viewers: Math.floor(Math.random() * 40000) + 20000,
   },
@@ -86,7 +86,7 @@ export const games = [
     slug: 'fortnite',
     name: 'Fortnite',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/fortnite.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/fortnite.jpg',
     tags: ['Shooter', 'Action'],
     viewers: Math.floor(Math.random() * 60000) + 60000,
   },
@@ -94,7 +94,7 @@ export const games = [
     slug: 'hearthstone',
     name: 'Hearthstone',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/hearthstone.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/hearthstone.jpg',
     tags: ['Card & Board Game'],
     viewers: Math.floor(Math.random() * 60000) + 30000,
   },
@@ -102,7 +102,7 @@ export const games = [
     slug: 'l2',
     name: 'Lineage 2',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/lineage2.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/lineage2.jpg',
     tags: ['RPG', 'Adventure Game'],
     viewers: Math.floor(Math.random() * 60000) + 10000,
   },
@@ -110,7 +110,7 @@ export const games = [
     slug: 'valorant',
     name: 'Valorant',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/valorant.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/valorant.jpg',
     tags: ['Shooter', 'FPS'],
     viewers: Math.floor(Math.random() * 60000) + 30000,
   },
@@ -118,7 +118,7 @@ export const games = [
     slug: 'wow',
     name: 'World of Warcraft',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/wow.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/wow.jpg',
     tags: ['RPG', 'Adventure Game'],
     viewers: Math.floor(Math.random() * 60000) + 20000,
   },
@@ -126,7 +126,7 @@ export const games = [
     slug: 'codmw',
     name: 'Call of Duty: Modern Warfare II',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/codmw.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/codmw.jpg',
     tags: ['Shooter', 'Action'],
     viewers: Math.floor(Math.random() * 60000) + 20000,
   },
@@ -134,7 +134,7 @@ export const games = [
     slug: 'lol',
     name: 'League of Legends',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/league.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/league.jpg',
     tags: ['MOBA', 'Action'],
     viewers: Math.floor(Math.random() * 50000) + 50000,
   },
@@ -142,7 +142,7 @@ export const games = [
     slug: 'ow2',
     name: 'Overwatch 2',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/overwatch2.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/overwatch2.jpg',
     tags: ['FPS', 'Shooter'],
     viewers: Math.floor(Math.random() * 60000) + 60000,
   },
@@ -150,7 +150,7 @@ export const games = [
     slug: 'apex',
     name: 'Apex Legends',
     thumb:
-      'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/games/apexlegends.jpg',
+      'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/apexlegends.jpg',
     tags: ['FPS', 'Shooter'],
     viewers: Math.floor(Math.random() * 60000) + 60000,
   },
