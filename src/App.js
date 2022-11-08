@@ -12,6 +12,7 @@ export default function App() {
 
   return (
     <div>
+      <img src={offline} />
       <span className="sectionTitle">Recommended games</span>
       <div className="cardsWrapper d-flex gap4 overflow-auto">
         {games.map((game) => {
@@ -38,6 +39,7 @@ export default function App() {
             streamers.map((streamer) => {
               return (
                 <>
+                  <img src={streamer.avatar} />
                   <div>{streamer.name}</div>
                   <div>{streamer.game}</div>
                   <div>{streamer.status}</div>

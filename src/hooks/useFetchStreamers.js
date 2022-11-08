@@ -18,6 +18,7 @@ const useFetchStreamers = () => {
         if (data['stream'] === null) {
           info.game = 'Offline';
           info.status = 'offline';
+          info.avatar = '/assets/thumbs/streamers/streamer404.jpg';
         } else if (data['stream'] === undefined) {
           info.game = 'Account Closed';
           info.status = 'offline';
