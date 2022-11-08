@@ -1,6 +1,6 @@
 import React from 'react';
 import './Streamer.scss';
-import badge from '../../../assets/icons/badge.svg';
+import badge from '../../assets/icons/badge.svg';
 
 const Streamer = ({ banner, logo, name, status, followers, videos }) => {
   const formatFollowers = (num) =>

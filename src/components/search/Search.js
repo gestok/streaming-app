@@ -1,7 +1,7 @@
 import React from 'react';
 import './Search.scss';
-import search from '../../../assets/icons/search.svg';
-import logo from '../../../assets/icons/react.svg';
+import search from '../../assets/icons/search.svg';
+import logo from '../../assets/icons/react.svg';
 
 const Search = () => {
   return (

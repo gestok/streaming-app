@@ -1,4 +1,3 @@
-// https://cdn.dribbble.com/userupload/3909904/file/original-e0be894f395f2e4e5d461bf67086c930.png?compress=1&resize=3200x2400
 import React from 'react';
 import './reset.css';
 import './style.scss';

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Navigation.scss';
-import home from '../../../assets/icons/home.svg';
-import play from '../../../assets/icons/play.svg';
-import joystick from '../../../assets/icons/joystick.svg';
-import message from '../../../assets/icons/message.svg';
+import home from '../../assets/icons/home.svg';
+import play from '../../assets/icons/play.svg';
+import joystick from '../../assets/icons/joystick.svg';
+import message from '../../assets/icons/message.svg';
 
 const Navigation = () => {
   return (
