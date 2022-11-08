@@ -3,7 +3,7 @@ import { streamers } from '../data';
 
 const useFetchStreamers = () => {
   const offline =
-    'https://raw.githubusercontent.com/gestok/streaming-app/main/assets/thumbs/streamers/offline.jpg';
+    'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/offline.jpg';
   const url = 'https://twitch-proxy.freecodecamp.rocks/twitch-api/streams';
   const [streamerData, setStreamerData] = useState([]);
   const [completed, setCompleted] = useState(false);
