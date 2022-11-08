@@ -4,31 +4,19 @@ import './reset.css';
 import './style.scss';
 import { games } from './data';
 import useFetchStreamers from './hooks/useFetchStreamers';
-import Cards from './components/cards/Cards';
+import Gamecard from './components/gamecard/Gamecard';
+import Streamer from './components/streamer/Streamer';
 
 export default function App() {
-  // const [completed, streamers] = useFetchStreamers();
+  const [completed, streamers] = useFetchStreamers();
 
   return (
     <div>
-      {/* <div>
-        {completed &&
-          streamers.map((streamer) => {
-            return (
-              <>
-                <div>{streamer.game}</div>
-                <div>{streamer.status}</div>
-                <br />
-              </>
-            );
-          })}
-      </div> */}
-
       <span className="sectionTitle">Recommended games</span>
       <div className="cardsWrapper d-flex gap4 overflow-auto">
         {games.map((game) => {
           return (
-            <Cards
+            <Gamecard
               key={game.slug}
               thumb={game.thumb}
               title={game.name}
@@ -42,18 +30,22 @@ export default function App() {
           );
         })}
       </div>
-      <span className="sectionTitle">Live you'll like</span>
+      <span className="sectionTitle">Favourite Streamers</span>
       <div className="cardsWrapper d-flex gap4 overflow-auto">
-        {games.map((game) => {
-          return (
-            <Cards
-              key={game.slug}
-              thumb={game.thumb}
-              title={game.name}
-              viewers={game.viewers}
-            />
-          );
-        })}
+        <Streamer />
+        <div>
+          {completed &&
+            streamers.map((streamer) => {
+              return (
+                <>
+                  <div>{streamer.name}</div>
+                  <div>{streamer.game}</div>
+                  <div>{streamer.status}</div>
+                  <br />
+                </>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

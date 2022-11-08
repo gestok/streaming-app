@@ -11,7 +11,10 @@ const useFetchStreamers = () => {
       streamers.map(async (streamer) => {
         const res = await fetch(`${url}/${streamer}`);
         const data = await res.json();
-        let info = {};
+        console.log(data);
+        let info = {
+          name: streamer,
+        };
         if (data['stream'] === null) {
           info.game = 'Offline';
           info.status = 'offline';

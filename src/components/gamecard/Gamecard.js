@@ -1,7 +1,7 @@
 import React from 'react';
-import './cards.scss';
+import './Gamecard.scss';
 
-const Cards = ({ thumb, title, viewers }) => {
+const Gamecard = ({ thumb, title, viewers }) => {
   const background = `url('${thumb}') center / cover no-repeat`;
 
   const formatViewers = (viewers) => {
@@ -11,7 +11,7 @@ const Cards = ({ thumb, title, viewers }) => {
   return (
     <div className="cardWrapper d-inline-flex flex-column relative">
       <img className="thumb pe-none user-select-none" src={thumb} alt={title} />
-      <div className="d-flex align-center justify-content-space-between glass gap2">
+      <div className="d-flex align-center justify-content-space-between glass gap2 user-select-none pe-none">
         <span className="title">{title}</span>
         <span className="d-flex align-center gap2">
           <svg
@@ -28,4 +28,4 @@ const Cards = ({ thumb, title, viewers }) => {
     </div>
   );
 };
-export default Cards;
+export default Gamecard;
