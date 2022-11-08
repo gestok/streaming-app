@@ -39,6 +39,7 @@ const useFetchStreamers = () => {
   };
 
   useEffect(() => {
+    fetchStreamers();
     return () => fetchStreamers();
   }, []);
 

@@ -26,10 +26,10 @@ export default function App() {
       <Search />
       <span className="sectionTitle user-select-none">Recommended games</span>
       <Carousel>
-        {shuffleArray(games).map((game) => {
+        {shuffleArray(games).map((game, i) => {
           return (
             <Gamecard
-              key={game.slug}
+              key={game.slug + i}
               thumb={game.thumb}
               title={game.name}
               viewers={game.viewers}
@@ -42,10 +42,10 @@ export default function App() {
       <span className="sectionTitle user-select-none">Favourite Streamers</span>
       <Carousel>
         {completed &&
-          streamers.map((streamer) => {
+          streamers.map((streamer, i) => {
             return (
               <Streamer
-                key={streamer.name}
+                key={streamer.name + i}
                 banner={streamer.banner}
                 logo={streamer.logo}
                 name={streamer.name}

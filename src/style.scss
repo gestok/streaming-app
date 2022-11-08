@@ -123,13 +123,10 @@ body {
     width: 100%;
     max-height: 720px;
     height: 100%;
-    margin: auto;
     padding: 0;
     box-shadow: 0 0 0 4px #939393, 0 10px 32px #0005;
     border: solid 10px #010101;
     border-radius: 40px;
-    background: var(--gray);
-    overflow-x: hidden;
     .stub {
       position: sticky;
       top: 0;
