@@ -1,0 +1,76 @@
+.liveCard {
+  color: var(--white);
+  min-width: 260px;
+  overflow: hidden;
+  .preview {
+    height: 140px;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    img {
+      overflow: hidden;
+      transition: all 0.8s ease;
+    }
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+  .status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    color: var(--white);
+    background: #ff0000;
+    border-radius: 10px;
+    padding: 5px 8px 4px;
+    font-size: 80%;
+  }
+  .vitals {
+    border-radius: 12px;
+    overflow: hidden;
+    .logo {
+      border-radius: 50%;
+      width: 21px;
+      height: 21px;
+      object-fit: cover;
+    }
+    .name {
+      font-weight: 500;
+      font-size: 90%;
+    }
+    .playing {
+      font-weight: 300;
+      font-size: 80%;
+    }
+    .viewers {
+      font-size: 90%;
+    }
+  }
+  .blurred {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .glass {
+    backdrop-filter: blur(12px);
+    z-index: 1;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
+
+.gray {
+  &.blurred,
+  img {
+    filter: grayscale(1);
+  }
+  .status {
+    background: #555;
+  }
+}

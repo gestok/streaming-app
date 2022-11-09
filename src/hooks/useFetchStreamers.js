@@ -17,7 +17,7 @@ const useFetchStreamers = () => {
           name: streamer.id,
           logo: streamer.logo || offline,
           banner: streamer.banner,
-          viewers: streamer.viewers,
+          viewers: 0,
           followers: streamer.followers,
           videos: streamer.videos,
         };
@@ -30,6 +30,7 @@ const useFetchStreamers = () => {
         } else {
           info.game = data.stream.game;
           info.viewers = data.stream.viewers;
+          info.url= data.stream.channel.url;
           info.status = 'online';
         }
         setStreamerData((streamerData) => [...streamerData, info]);

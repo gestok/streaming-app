@@ -4,18 +4,20 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   -webkit-box-shadow: 0 -4px 12px #0001;
-          box-shadow: 0 -4px 12px #0001;
+  box-shadow: 0 -4px 12px #0001;
   .btn {
     text-decoration: none;
     -ms-flex-preferred-size: 20%;
-        flex-basis: 20%;
+    flex-basis: 20%;
     padding: var(--padding);
     padding-bottom: calc(var(--padding) + 8px);
     .add {
       background: -webkit-gradient(
         linear,
-        left top, right top,
+        left top,
+        right top,
         from(var(--gradient-left)),
         color-stop(var(--gradient-center)),
         to(var(--gradient-right))

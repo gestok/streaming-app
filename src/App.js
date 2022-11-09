@@ -1,11 +1,12 @@
 import React from 'react';
 import './reset.css';
 import './style.scss';
-import { games } from './data';
+import { games, lives } from './data';
 import useFetchStreamers from './hooks/useFetchStreamers';
 import Gamecard from './components/gamecard/Gamecard';
 import Streamer from './components/streamer/Streamer';
 import Carousel from './components/carousel/Carousel';
+import Livecard from './components/livecard/Livecard';
 import Search from './components/search/Search';
 import Navigation from './components/navigation/Navigation';
 
@@ -38,7 +39,23 @@ export default function App() {
         })}
       </Carousel>
       <span className="sectionTitle user-select-none">Popular Lives</span>
-      <Carousel></Carousel>
+      <Carousel>
+        {completed &&
+          streamers.map((streamer, i) => {
+            return (
+              <Livecard
+                key={`${streamer.name + i}_live`}
+                thumb={lives[i].thumb}
+                status={streamer.status}
+                game={streamer.game}
+                url={streamer.url}
+                logo={streamer.logo}
+                name={streamer.name}
+                viewers={streamer.viewers}
+              />
+            );
+          })}
+      </Carousel>
       <span className="sectionTitle user-select-none">Favourite Streamers</span>
       <Carousel>
         {completed &&

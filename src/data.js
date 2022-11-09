@@ -73,57 +73,41 @@ export const streamers = [
 
 export const lives = [
   {
-    id: 'ESL_SC2',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/ESL_SC2.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live1.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'OgamingSC2',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/OG_SC2.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live2.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'cretetion',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/cretetion.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live3.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'freecodecamp',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/freecodecamp.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live4.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'storbeck',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/offline.jpg',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live5.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'habathcx',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/offline.jpg',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live6.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'RobotCaleb',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/RobotCaleb.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live7.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
   },
   {
-    id: 'noobs2ninjas',
-    logo: 'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/noobs2ninjas.png',
     thumb:
       'https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live8.jpg',
     viewers: Math.floor(Math.random() * 500) + 10,
