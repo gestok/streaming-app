@@ -6,11 +6,13 @@
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
   .thumb {
     width: 100%;
     height: auto;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 12px;
     -webkit-transition: all 0.8s ease;
     -o-transition: all 0.8s ease;
@@ -20,19 +22,19 @@
     padding: 14px 12px;
     background: var(--glass);
     -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     position: absolute;
     width: calc(100% - 40px);
     border-radius: 10px;
     bottom: 8px;
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     z-index: 2;
     .title {
       -o-text-overflow: ellipsis;
-         text-overflow: ellipsis;
+      text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
       font-size: 120%;
@@ -40,7 +42,7 @@
   }
   &:hover .thumb {
     -webkit-transform: scale(1.04);
-        -ms-transform: scale(1.04);
-            transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
   }
 }
