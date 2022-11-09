@@ -1,0 +1,201 @@
+{
+  "streamers": [
+    {
+      "id": "ESL_SC2",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/ESL_SC2.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/esl_sc2.jpg",
+      "viewers": 842,
+      "followers": 11312,
+      "videos": 210
+    },
+    {
+      "id": "OgamingSC2",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/OG_SC2.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/og-sc2.jpg",
+      "viewers": 625,
+      "followers": 8451,
+      "videos": 168
+    },
+    {
+      "id": "cretetion",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/cretetion.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/cretetion.jpg",
+      "viewers": 61,
+      "followers": 961,
+      "videos": 314
+    },
+    {
+      "id": "freecodecamp",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/freecodecamp.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/freecodecamp.jpg",
+      "viewers": 92,
+      "followers": 4328,
+      "videos": 225
+    },
+    {
+      "id": "storbeck",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/league.jpg",
+      "viewers": 158,
+      "followers": 848,
+      "videos": 48
+    },
+    {
+      "id": "habathcx",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/wow.jpg",
+      "viewers": 32,
+      "followers": 210,
+      "videos": 59
+    },
+    {
+      "id": "RobotCaleb",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/RobotCaleb.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/code.jpg",
+      "viewers": 64,
+      "followers": 748,
+      "videos": 136
+    },
+    {
+      "id": "noobs2ninjas",
+      "logo": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/streamers/noobs2ninjas.png",
+      "banner": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/banners/codespiral.jpg",
+      "viewers": 78,
+      "followers": 1719,
+      "videos": 88
+    }
+  ],
+  "games": [
+    {
+      "slug": "valorant",
+      "name": "Valorant",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/valorant.jpg",
+      "tags": [
+        "Shooter",
+        "FPS"
+      ],
+      "viewers": 71621
+    },
+    {
+      "slug": "wow",
+      "name": "World of Warcraft",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/wow.jpg",
+      "tags": [
+        "RPG",
+        "Adventure Game"
+      ],
+      "viewers": 87216
+    },
+    {
+      "slug": "dota2",
+      "name": "Dota 2",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/dota2.jpg",
+      "tags": [
+        "MOBA",
+        "Action"
+      ],
+      "viewers": 62210
+    },
+    {
+      "slug": "lol",
+      "name": "League of Legends",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/league.jpg",
+      "tags": [
+        "MOBA",
+        "Action"
+      ],
+      "viewers": 54320
+    },
+    {
+      "slug": "fortnite",
+      "name": "Fortnite",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/fortnite.jpg",
+      "tags": [
+        "Shooter",
+        "Action"
+      ],
+      "viewers": 31100
+    },
+    {
+      "slug": "hearthstone",
+      "name": "Hearthstone",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/hearthstone.jpg",
+      "tags": [
+        "Card & Board Game"
+      ],
+      "viewers": 81080
+    },
+    {
+      "slug": "l2",
+      "name": "Lineage 2",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/lineage2.jpg",
+      "tags": [
+        "RPG",
+        "Adventure Game"
+      ],
+      "viewers": 21854
+    },
+    {
+      "slug": "codmw",
+      "name": "Call of Duty: Modern Warfare II",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/codmw.jpg",
+      "tags": [
+        "Shooter",
+        "Action"
+      ],
+      "viewers": 42230
+    },
+    {
+      "slug": "ow2",
+      "name": "Overwatch 2",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/overwatch2.jpg",
+      "tags": [
+        "FPS",
+        "Shooter"
+      ],
+      "viewers": 83930
+    },
+    {
+      "slug": "apex",
+      "name": "Apex Legends",
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/games/apexlegends.jpg",
+      "tags": [
+        "FPS",
+        "Shooter"
+      ],
+      "viewers": 33462
+    }
+  ],
+  "lives": [
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live1.jpg",
+      "viewers": 324
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live2.jpg",
+      "viewers": 105
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live3.jpg",
+      "viewers": 88
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live4.jpg",
+      "viewers": 210
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live5.jpg",
+      "viewers": 96
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live6.jpg",
+      "viewers": 32
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live7.jpg",
+      "viewers": 64
+    },
+    {
+      "thumb": "https://raw.githubusercontent.com/gestok/streaming-app/main/src/assets/thumbs/lives/live8.jpg",
+      "viewers": 208
+    }
+  ]
+}
