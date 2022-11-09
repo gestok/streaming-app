@@ -1,13 +1,13 @@
 .liveCard {
   color: var(--white);
-  min-width: 260px;
+  min-width: 268px;
   overflow: hidden;
   .preview {
     height: 140px;
-    cursor: pointer;
     border-radius: 12px;
     overflow: hidden;
     img {
+      width: 100%;
       overflow: hidden;
       transition: all 0.8s ease;
     }
@@ -31,12 +31,13 @@
     overflow: hidden;
     .logo {
       border-radius: 50%;
-      width: 21px;
-      height: 21px;
+      box-shadow: 0 0 4px #0005;
+      width: 26px;
+      height: 26px;
       object-fit: cover;
     }
     .name {
-      font-weight: 500;
+      font-weight: 600;
       font-size: 90%;
     }
     .playing {
@@ -44,7 +45,8 @@
       font-size: 80%;
     }
     .viewers {
-      font-size: 90%;
+      font-weight: 300;
+      font-size: 80%;
     }
   }
   .blurred {
@@ -58,10 +60,12 @@
     object-fit: cover;
   }
   .glass {
+    padding: calc(var(--padding) / 2);
     backdrop-filter: blur(12px);
     z-index: 1;
     border-radius: 12px;
     overflow: hidden;
+    width: 100%;
   }
 }
 
