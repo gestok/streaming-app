@@ -1,3 +1,0 @@
-# Streaming App
-
-In progress...
