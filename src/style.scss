@@ -151,6 +151,7 @@ body {
     box-shadow: 0 0 0 4px #939393, 0 10px 32px #0005;
     border: solid 10px #010101;
     border-radius: 40px;
+    z-index: 1;
     .stub {
       position: sticky;
       top: 0;
