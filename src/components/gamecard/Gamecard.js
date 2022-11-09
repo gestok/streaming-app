@@ -2,8 +2,6 @@ import React from 'react';
 import './Gamecard.scss';
 
 const Gamecard = ({ thumb, title, viewers }) => {
-  const background = `url('${thumb}') center / cover no-repeat`;
-
   const formatViewers = (viewers) => {
     return (viewers / 1000).toFixed(1);
   };
